@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:background="@color/dark_blue" >
+
+    <ImageView
+        android:id="@+id/fragment_title_bar_back_button"
+        android:layout_width="48dp"
+        android:layout_height="64dp"
+        android:contentDescription="@string/none"
+        android:gravity="left"
+        android:src="@drawable/left_arrow"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/fragment_title_bar_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="@color/light_blue"
+        android:textSize="24sp" />
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="IntegerStyleable">
+        <attr name="number" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="StringStyleable">
+        <attr name="text" format="string" />
+    </declare-styleable>
+    <declare-styleable name="ActivityAttr">
+        <attr name="title_text" format="string" />
+        <attr name="parent_activity" format="string" />
+        <attr name="head_margin" format="dimension" />
+        <attr name="background_color" format="color" />
+    </declare-styleable>
+
+</resources>
